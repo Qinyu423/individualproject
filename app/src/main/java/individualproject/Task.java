@@ -8,16 +8,18 @@ public class Task {
     private String Content;
     private Date DueDate;
     private static int IDgenerator = 0;
+    private String Project;
 
     private boolean done;
 
 
 
 
-    public Task(String title, String content, Date dueDate) {
+    public Task(String title, String content, Date dueDate, String project) {
         Title = title;
         Content = content;
         DueDate = dueDate;
+        Project = project;
         ID = IDgenerator;
         IDgenerator ++;
         done = false;
@@ -62,5 +64,18 @@ public class Task {
         return done;
     }
 
+    public void setDone (boolean done) {
+        this.done = done;
+        //this.done refers to private boolean done;
+
+    }
+
+    public String getProject() {
+        return Project;
+    }
+
+    public void setProject(String project) {
+        Project = project;
+    }
 }
 

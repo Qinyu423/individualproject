@@ -29,6 +29,14 @@ public class TaskService {
         }
         return null;
     }
+
+    public ArrayList<Task> getTasklist() {
+        return Tasklist;
+    }
+
+    public void setTasklist(ArrayList<Task> tasklist) {
+        Tasklist = tasklist;
+    }
 }
  // do edit title, edit content,
  // create user interface
