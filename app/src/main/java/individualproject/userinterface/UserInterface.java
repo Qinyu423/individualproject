@@ -1,4 +1,6 @@
-package com.company;
+package individualproject.userinterface;
+
+import individualproject.logic.Task;
 
 import java.util.ArrayList;
 import java.util.Scanner;

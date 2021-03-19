@@ -1,4 +1,9 @@
-package com.company;
+package individualproject;
+
+import individualproject.logic.Repository;
+import individualproject.logic.Task;
+import individualproject.logic.TaskService;
+import individualproject.userinterface.UserInterface;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

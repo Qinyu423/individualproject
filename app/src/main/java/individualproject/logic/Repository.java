@@ -1,4 +1,4 @@
-package com.company;
+package individualproject.logic;
 
 import java.io.File;
 import java.io.FileNotFoundException;

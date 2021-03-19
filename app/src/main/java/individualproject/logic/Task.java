@@ -1,4 +1,4 @@
-package com.company;
+package individualproject.logic;
 
 import java.util.Date;
 
@@ -25,10 +25,18 @@ public class Task {
         done = false;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getTitle() {
         return Title;
     }
 
+    /**
+     *
+     * @param title
+     */
     public void setTitle(String title) {
         Title = title;
     }
