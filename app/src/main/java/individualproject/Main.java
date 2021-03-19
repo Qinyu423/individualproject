@@ -1,4 +1,4 @@
-package com.company;
+package individualproject;
 
 import java.text.ParseException;
 
