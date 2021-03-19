@@ -25,6 +25,10 @@ public class Task {
         done = false;
     }
 
+    public Task() {
+
+    }
+
     /**
      *
      * @return
